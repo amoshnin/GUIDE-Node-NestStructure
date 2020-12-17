@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es6",
+		"sourceMap": true,
+		"incremental": true,
+		"allowSyntheticDefaultImports": true,
+		"noLib": false,
+		"noImplicitAny": false,
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"typeRoots": ["node_modules/@types", "types"],
+		"paths": {
+			"@auth": ["auth"],
+			"@common": ["common"],
+			"@config": ["config"],
+			"@environments": ["environments"],
+			"@models": ["models"],
+			"@shared": ["shared"],
+			"@utils": ["utils"],
+			"@validations": ["validations"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/services/reviews/index.js"],
+	"compileOnSave": false,
+	"exclude": [
+		"node_modules",
+		"coverage",
+		"document",
+		"dist",
+		"backup",
+		"**/*.spec.ts"
+	]
+}
