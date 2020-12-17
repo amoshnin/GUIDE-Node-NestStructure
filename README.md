@@ -1,6 +1,6 @@
 # Nestjs GraphQL Best Practice
 
-> ### NestJS (Express + Typeorm) codebase containing real world examples (CRUD, auth, advanced patterns, etc).
+> ### NestJS (Express + Typeorm) codebase containing real world examples (CRUD, auth, advanced patterns).
 
 <img src="src/assets/images/project-logo.png" alt="Node.js Best Practices">
 
